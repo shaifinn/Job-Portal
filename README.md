@@ -1,105 +1,143 @@
-# 🚀 JobPortal Pro – Modern PHP Job Portal System
+# 🚀 JobPortal Pro
 
-> ### 💼 A powerful and responsive Job Portal platform built using **PHP, MySQL, Bootstrap, and PHPMailer**.
+![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
 
-![PHP](https://img.shields.io/badge/PHP-Backend-blue?style=for-the-badge&logo=php)
-![MySQL](https://img.shields.io/badge/MySQL-Database-orange?style=for-the-badge&logo=mysql)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-UI-purple?style=for-the-badge&logo=bootstrap)
-![Security](https://img.shields.io/badge/Security-Encrypted-success?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
+> **A full-stack, role-based recruitment platform connecting talent with opportunity.**
 
----
-
-# 🌟 About The Project
-
-**JobPortal Pro** is a secure and modern web-based job portal platform designed to connect recruiters and job seekers efficiently.  
-The system provides a professional environment where companies can post jobs and applicants can apply easily with enhanced security and smooth user experience.
+**JobPortal Pro** is a comprehensive web application designed to streamline the hiring process. It features a dedicated Applicant Tracking System (ATS), a rich-text job posting interface, and a robust Admin panel for system management.
 
 ---
 
-# ✨ Key Features
+## 📸 Screenshots
 
-✅ Secure User Authentication  
-✅ Encrypted Password Security System  
-✅ Recruiter & Applicant Dashboards  
-✅ Admin Management Panel  
-✅ Job Posting & Job Application System  
-✅ Email-Based Password Reset  
-✅ Responsive Bootstrap 5 UI  
-✅ Smart Job Search & Filtering  
-✅ Secure Session Management  
-✅ Dynamic MySQL Database Integration  
-✅ Fast & Optimized Performance  
-✅ Mobile Friendly Interface  
-✅ Easy Navigation & User Experience  
-✅ Professional Dashboard Design  
-✅ Higher Job Visibility for Applicants  
+| Landing Page | Job Seeker Dashboard |
+|:---:|:---:|
+|<img width="1891" height="903" alt="Image" src="https://github.com/user-attachments/assets/f2255c08-04f1-4448-9f54-bfb3fc6690e7" />| <img width="1919" height="904" alt="Image" src="https://github.com/user-attachments/assets/84cc17a1-a525-44db-b53f-5d5c28aab2c7" /> |
+
+| Recruiter Panel | Admin Overview |
+|:---:|:---:|
+| <img width="1895" height="900" alt="Image" src="https://github.com/user-attachments/assets/c3bcdb96-36c2-41fe-9d51-143a99bf14fa" />| <img width="1919" height="902" alt="Image" src="https://github.com/user-attachments/assets/334b86e1-1a2c-4b55-aa39-d0aab0849612" /> |
+
+*(Note: Replace these placeholder images with your actual screenshots)*
 
 ---
 
-# 🔐 Security Features
+## 🌟 Key Features
 
-🔒 Password Hash Encryption using PHP Password Hashing  
-🔒 Secure Login & Session Handling  
-🔒 Protected Admin Access  
-🔒 Token-Based Password Reset System  
-🔒 SQL Injection Prevention using Prepared Statements  
-🔒 Secure Email Verification System  
+### 🏢 For Recruiters
+* **Post Jobs with Rich Text:** Create detailed job descriptions using an integrated CKEditor.
+* **Applicant Tracking:** View, Accept, or Reject candidates.
+* **Company Branding:** Manage company profile and details.
+* **Download Resumes:** Access candidate resumes directly.
 
----
+### 👨‍💻 For Job Seekers
+* **Smart Search Engine:** Filter jobs by title, keyword, or company.
+* **One-Click Apply:** Upload resumes (PDF/Doc) and apply instantly.
+* **Application History:** Track the status of every application.
+* **Direct Connect:** Unlock "Contact HR" details upon acceptance.
 
-# 📈 Why Use JobPortal Pro?
-
-💼 Helps recruiters find suitable candidates faster  
-📄 Makes job applications simple and professional  
-🚀 Improves visibility of job postings  
-🎯 Increases chances of connecting applicants with recruiters  
-⚡ Provides smooth and responsive user experience  
-🔐 Focused on secure data handling and user privacy  
-
----
-
-# 📂 Modules Included
-
-## 👨‍💼 Recruiter Module
-- Post Jobs
-- Manage Job Listings
-- View Applications
-- Recruit Candidates
-
-## 👨‍🎓 Applicant Module
-- Search Jobs
-- Apply Online
-- Manage Profile
-- Track Applications
-
-## 🛡️ Admin Module
-- Manage Users
-- Manage Recruiters
-- Manage Job Listings
-- System Monitoring
+### 🛡️ For Admins (Super User)
+* **System Overview:** Real-time statistics on users, jobs, and placements.
+* **User Management:** Ban/Delete spam accounts.
+* **Content Moderation:** Remove inappropriate job listings.
+* **Live Activity Feed:** Monitor who is applying to what in real-time.
 
 ---
 
-# 🛠️ Technologies Used
+## 🛠️ Technology Stack
 
-| Technology | Purpose |
-|---|---|
-| 🐘 PHP | Backend Development |
-| 🗄️ MySQL | Database Management |
-| 🎨 Bootstrap 5 | Responsive UI Design |
-| 📧 PHPMailer | Email System |
-| 🌐 HTML/CSS/JavaScript | Frontend Development |
+* **Frontend:** HTML5, CSS3, Bootstrap 5, JavaScript (ES6)
+* **Backend:** PHP (PDO)
+* **Database:** MySQL
+* **Server:** Apache (XAMPP)
+* **Tools:** CKEditor 4, SMTP Mail Simulation
 
 ---
 
-# ⚡ Installation Guide
+## ⚙️ Installation Guide
 
+Follow these steps to set up the project locally:
+
+### 1. Clone the Repository
+Download the project to your local server directory (e.g., `htdocs`).
 ```bash
-1. Clone Repository
-2. Import db.sql into phpMyAdmin
-3. Configure includes/db.php
-4. Start Apache & MySQL
-5. Run Project in Browser
+git clone [https://github.com/YOUR-USERNAME/JobPortal-Pro.git](https://github.com/YOUR-USERNAME/JobPortal-Pro.git)
+```
+### 2. Database Setup
+- Open phpMyAdmin (http://localhost/phpmyadmin).
+- Create a new database named job_portal.
+- Import the db.sql file located in the root folder of this project.
 
-If you like this project, don't forget to give it a ⭐ on GitHub!
+### 3. Configure Connection
+- If your MySQL port is not 3306, update includes/db.php:
+```bash
+$host = 'localhost:3307'; // Update port if necessary
+```
+### 4. Create Upload Folders
+- Ensure the following folders exist and have write permissions:
+- uploads/
+- uploads/resumes/
+
+### 5. Run the Project
+Open your browser and visit: 
+```bash
+http://localhost/job_portal
+```
+## 📂 Project Structure
+
+```text
+job_portal/
+│
+├── assets/
+│   └── style.css            # Main stylesheet
+│
+├── includes/
+│   ├── db.php               # Database connection settings
+│   ├── header.php           # Navbar and top HTML
+│   ├── footer.php           # Copyright and bottom scripts
+│   └── mailer.php           # Email simulation logic
+│
+├── uploads/
+│   ├── resumes/             # Folder for applicant CVs
+│   └── default.png          # Default user profile picture
+│
+├── admin_dashboard.php      # Stats & Activity Feed (Admin only)
+├── manage_users.php         # User deletion tool (Admin only)
+├── manage_jobs.php          # Job moderation tool (Admin only)
+│
+├── dashboard.php            # Recruiter Main Panel
+├── post_job.php             # Job Creation Page
+│
+├── seeker_dashboard.php     # Applicant Main Panel
+├── jobs.php                 # Search & Filter Page
+├── apply.php                # Job Details & Apply Form
+├── profile.php              # Edit Profile (All users)
+│
+├── index.php                # Landing Page (Home)
+├── login.php                # User Login
+├── register.php             # User Registration
+├── logout.php               # Session Destroy
+├── about.php                # About Us Page
+├── contact.php              # Contact Admin Page
+│
+├── db.sql                   # Database Import File
+├── email_logs.txt           # File where "Sent Emails" are saved
+└── README.md                # Documentation
+```
+
+### 🤝 Contributing
+- Fork the repository.
+- Create a new branch (git checkout -b feature-branch).
+- Commit your changes.
+- Push to the branch.
+- Open a Pull Request.
+
+### ❤️ Show your support
+- Give a ⭐️ if this project helped you!
+---
+
+
+
